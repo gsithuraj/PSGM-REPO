@@ -1,0 +1,74 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.psgm</groupId>
+	<artifactId>ParentPom</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Parent Pom</name>
+	<description>Parent Pom for all Java JEE applications</description>
+
+	<inceptionYear>2012</inceptionYear>
+	<organization>
+		<name>PSGM</name>
+	</organization>
+
+
+
+	<developers>
+	</developers>
+
+	<contributors></contributors>
+
+	<distributionManagement>
+      <repository>
+          <id>releases</id>
+          <url>http://gsithuraj.github.com/maven-repository/releases</url>
+      </repository>
+      <snapshotRepository>
+          <id>snapshots</id>
+          <url>http://gsithuraj.github.com/maven-repository/snapshots</url>
+      </snapshotRepository>
+  </distributionManagement>
+
+
+
+	<licenses></licenses>
+
+	<mailingLists></mailingLists>
+
+	<pluginRepositories></pluginRepositories>
+
+	<prerequisites></prerequisites>
+
+	<repositories></repositories>
+
+	<scm>
+		<connection>scm:git:git@github.com:gsithuraj/PSGM-REPO.git</connection>
+		<url>scm:git:git@github.com:gsithuraj/PSGM-REPO.git</url>
+		<developerConnection>scm:git:git@github.com:gsithuraj/PSGM-REPO.git</developerConnection>
+	</scm>
+
+	<url></url>
+
+	<properties>
+
+	</properties>
+
+	<dependencyManagement>
+	</dependencyManagement>
+
+	<build>
+		<finalName>ParentPom</finalName>
+	</build>
+
+	<ciManagement>
+	</ciManagement>
+
+	<reports></reports>
+
+	<reporting></reporting>
+
+	<profiles></profiles>
+
+</project>
