@@ -21,15 +21,15 @@
 	<contributors></contributors>
 
 	<distributionManagement>
-      <repository>
-          <id>releases</id>
-          <url>http://gsithuraj.github.com/maven-repository/releases</url>
-      </repository>
-      <snapshotRepository>
-          <id>snapshots</id>
-          <url>http://gsithuraj.github.com/maven-repository/snapshots</url>
-      </snapshotRepository>
-  </distributionManagement>
+		<repository>
+			<id>releases</id>
+			<url>http://gsithuraj.github.com/maven-repository/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<url>http://gsithuraj.github.com/maven-repository/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 
 
